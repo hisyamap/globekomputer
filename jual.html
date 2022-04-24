@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jual Barang</title>
+	<style>
+		body {
+			margin-top: 100px;
+			margin-left: 400px ;
+			margin-right: 400px ;
+			font-family: Arial;
+		}
+		input[type=text], select {
+		  width: 100%;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		}
+
+		input[type=submit] {
+		  width: 100%;
+		  background-color: royalblue;
+		  color: white;
+		  padding: 14px 20px;
+		  margin: 8px 0;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+		  background-color: darkblue;
+		}
+
+		div {
+		  border-radius: 5px;
+		  background-color: #f2f2f2;
+		  padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h2 style="text-align: center;">JUAL BARANG</h2>
+	  <form method="GET">
+	    <label for="namabarang"><b>Nama Barang</b></label>
+	    <input type="text" id="namabarang" name="namabarang">
+
+	    <label for="descbarang"><b>Deskripsi Barang</b></label>
+	    <input type="text" id="descbarang" name="descbarang">
+	  	
+		<label for="gambarbarang"><b>Gambar Barang</b></label><br><br>
+		<input type="file" id="gambarbarang" name="gambarbarang">
+
+		<br><br>
+	    <input type="submit" value="Submit">
+	  </form>
+	</div>
+</body>
+</html>
