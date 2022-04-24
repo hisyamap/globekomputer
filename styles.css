@@ -10,20 +10,30 @@ body {
 }
 
 .main-img img {
+  display: block;
   max-width: 100%;
-  height:  auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .second-img {
   padding-right: 120px;
   padding-left: 120px;
-  height: auto;
   background-color: lightsteelblue;
+}
+
+.second-img img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .second-img img {
   max-width: 100%;
-  height:  auto;
+  height: auto;
 }
 
 .topnav ul {
